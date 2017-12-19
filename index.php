@@ -6,8 +6,8 @@ Modified by Ilyasa
 */
 require_once('./line_class.php');
 
-$channelAccessToken = 'jbHjL+SWnmmqAFkg/fLOr0Apci1NsZnOnupwLzd+7j6QbYN1zgr55xfEW1KEOZtPywmywHhLLjYYBsv3rTl2zFZhyK911R6hElABsVjz9BNx0ogFNM+/pS5g2DlsQLSsPlyNwRnFzL9M1bhRaNttHAdB04t89/1O/w1cDnyilFU='; //Your Channel Access Token
-$channelSecret = '20513567f0c37f759ad8b16a0db0f6e8';//Your Channel Secret
+$channelAccessToken = '5AMbln+R+RJ8Tt3PIf+gZKNhIB0jBFlokwJlohwtaTi4UEkEkdkvBZ01KeDE8Wye3mc+zqoQtDGhH0J59NgwcR+kziWGCTiTq0aKXlI6rh+duPlKXl1mGyVoKClc1YTcUqVPwAJ3B55Mv5wpQybFogdB04t89/1O/w1cDnyilFU='; //Your Channel Access Token
+$channelSecret = '523a412c9051776cd11083ee9f24207c';//Your Channel Secret
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
